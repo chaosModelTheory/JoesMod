@@ -1265,6 +1265,10 @@ A single player on default diff can have a GS of up to 480 without perks.
 	<item group="treasureMaps" count="1" prob="0.092"/>
 	<item name="resourceFemur" count="1,2" prob="0.05"/>
 	<item name="resourceScrapPolymers" count="1,2" prob="0.3"/>
+	<item name="scrapPlasticBottle" count="1,2"/>
+	<item name="scrapPlasticBottle2" count="1,2"/>
+	<item name="scrapPlasticBag" count="1,2"/>
+	<item name="scrapBeerBottle" count="1,2"/>
 </lootgroup>
 
 <lootgroup name="brassResource">
@@ -2723,10 +2727,6 @@ if the loot entry for mods is empty then it will use the lootgroup mods and mod_
 	<item name="resourceNail" count="50,200"/>
 	<item name="resourceWood" count="50,300"/>
 	<item name="resourceGlue" count="1,2"/>
-	<item name="scrapPlasticBottle" count="1,2"/>
-	<item name="scrapPlasticBottle2" count="1,2"/>
-	<item name="scrapPlasticBag" count="1,2"/>
-	<item name="scrapBeerBottle" count="1,2"/>
 	<item name="resourcePaint" count="20,150"/>
 	<item name="meleeToolPaintTool"/>
 	<item name="meleeToolWireTool" prob="0.4"/>

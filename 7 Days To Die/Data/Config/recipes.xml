@@ -3806,7 +3806,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <recipe name="resourceForgedCastIron" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
 	<ingredient name="resourceScrapIron" count="10"/>
 	<ingredient name="resourceClayLump" count="5"/>
-	<ingredient name="resourceCoal" count="5"/>
 </recipe>
 
 <recipe name="meleeToolFireaxeCastIron" count="1" tags="learnable">

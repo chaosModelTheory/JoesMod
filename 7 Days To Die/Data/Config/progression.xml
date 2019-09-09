@@ -1507,11 +1507,11 @@
 	<perk name="perkHammerForge" parent="skillCraftsmanship" name_key="perkHammerForgeName" desc_key="perkHammerForgeDesc" icon="ui_game_symbol_forge">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="4" desc_key="reqWorksmanshipLevel04"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="5" desc_key="reqWorksmanshipLevel05"/>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="7" desc_key="reqWorksmanshipLevel05"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="6" desc_key="reqWorksmanshipLevel06"/>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="8" desc_key="reqWorksmanshipLevel06"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="8" desc_key="reqWorksmanshipLevel08"/>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="9" desc_key="reqWorksmanshipLevel08"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
 		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="10" desc_key="reqWorksmanshipLevel10"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>								
