@@ -12676,7 +12676,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mplastics"/>
 	<property name="Stacknumber" value="1000"/> 
-	<property name="Weight" value="100"/>
+	<property name="Weight" value="3"/>
 	<property name="EconomicValue" value="40"/>
 	<property name="Group" value="Resources"/>
 </item>
@@ -13421,7 +13421,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_RefinedPrefab"/>
 	<property name="HoldType" value="2"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="RepairTools" value="resourceForgedSteel"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="ActionSkillGroup" value="Destruction"/>

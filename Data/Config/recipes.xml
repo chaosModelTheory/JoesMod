@@ -3894,7 +3894,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="foodCropCorn" count="1"/>
 </recipe>
 
-<recipe name="yeast" count="1" tags="learnable" >
+<recipe name="yeast" count="1" craft_area="chemistryStation" tags="learnable" >
 	<ingredient name="foodCropPotato" count="1"/>
 </recipe>
 

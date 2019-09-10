@@ -212,7 +212,7 @@
 		</effect_group>
 	</attribute>
 	
-	<attribute name="attWorksmanship" name_key="attWorksmanshipName" desc_key="attWorksmanshipDesc" icon="ui_game_symbol_misc_crafting">
+	<attribute name="attWorkmanship" name_key="attWorkmanshipName" desc_key="attWorkmanshipDesc" icon="ui_game_symbol_misc_crafting">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
@@ -232,16 +232,16 @@
 			<passive_effect name="CraftingTime" operation="perc_subtract" level="7,10" value=".5,.65"/>
 			<passive_effect name="CraftingTime" operation="perc_subtract" level="11,20" value=".65"/>
 
-			<effect_description level="1" desc_key="attWorksmanshipRank1Desc"/>
-			<effect_description level="2" desc_key="attWorksmanshipRank2Desc"/>
-			<effect_description level="3" desc_key="attWorksmanshipRank3Desc"/>
-			<effect_description level="4" desc_key="attWorksmanshipRank4Desc"/>
-			<effect_description level="5" desc_key="attWorksmanshipRank5Desc"/>
-			<effect_description level="6" desc_key="attWorksmanshipRank6Desc"/>
-			<effect_description level="7" desc_key="attWorksmanshipRank7Desc"/>
-			<effect_description level="8" desc_key="attWorksmanshipRank8Desc"/>
-			<effect_description level="9" desc_key="attWorksmanshipRank9Desc"/>
-			<effect_description level="10" desc_key="attWorksmanshipRank10Desc"/>
+			<effect_description level="1" desc_key="attWorkmanshipRank1Desc"/>
+			<effect_description level="2" desc_key="attWorkmanshipRank2Desc"/>
+			<effect_description level="3" desc_key="attWorkmanshipRank3Desc"/>
+			<effect_description level="4" desc_key="attWorkmanshipRank4Desc"/>
+			<effect_description level="5" desc_key="attWorkmanshipRank5Desc"/>
+			<effect_description level="6" desc_key="attWorkmanshipRank6Desc"/>
+			<effect_description level="7" desc_key="attWorkmanshipRank7Desc"/>
+			<effect_description level="8" desc_key="attWorkmanshipRank8Desc"/>
+			<effect_description level="9" desc_key="attWorkmanshipRank9Desc"/>
+			<effect_description level="10" desc_key="attWorkmanshipRank10Desc"/>
 		</effect_group>
 	</attribute>
 
@@ -282,8 +282,8 @@
 	<skill name="skillInfluence" parent="attIntellect" name_key="skillInfluenceName" desc_key="skillInfluenceDesc" icon="ui_game_symbol_influence"><effect_group/></skill>
 	<skill name="skillScavenging" parent="attIntellect" name_key="skillScavengingName" desc_key="skillScavengingDesc" icon="ui_game_symbol_hand"><effect_group/></skill>
 	
-	<skill name="skillCraftsmanship" parent="attWorksmanship" name_key="skillCraftsmanshipName" desc_key="skillCraftsmanshipDesc" icon="ui_game_symbol_misc_crafting"><effect_group/></skill>
-	<!-- <skill name="skillConstruction" parent="attWorksmanship" name_key="skillConstructionName" desc_key="skillConstructionDesc" icon="ui_game_symbol_resource"><effect_group/></skill>
+	<skill name="skillCraftsmanship" parent="attWorkmanship" name_key="skillCraftsmanshipName" desc_key="skillCraftsmanshipDesc" icon="ui_game_symbol_misc_crafting"><effect_group/></skill>
+	<!-- <skill name="skillConstruction" parent="attWorkmanship" name_key="skillConstructionName" desc_key="skillConstructionDesc" icon="ui_game_symbol_resource"><effect_group/></skill>
 	-->
 </skills>
 
@@ -981,11 +981,11 @@
 -->
 <!-- Survival Perks (Fortitude) -->
 	<perk name="perkHeavyArmor" parent="skillCraftsmanship" name_key="perkHeavyArmorName" desc_key="perkHeavyArmorDesc" icon="ui_game_symbol_armor_iron">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="1" desc_key="reqWorksmanshipLevel01"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="3" desc_key="reqWorksmanshipLevel03"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="5" desc_key="reqWorksmanshipLevel05"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="7" desc_key="reqWorksmanshipLevel07"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="10" desc_key="reqWorksmanshipLevel10"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="1" desc_key="reqWorkmanshipLevel01"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="3" desc_key="reqWorkmanshipLevel03"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="5" desc_key="reqWorkmanshipLevel05"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="7" desc_key="reqWorkmanshipLevel07"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="10" desc_key="reqWorkmanshipLevel10"/></level_requirements>
 
 		<effect_group>
 			<passive_effect name="PhysicalDamageResist" operation="perc_add" value="0.1,0.5" level="1,5" tags="heavyarmor"/>
@@ -1272,11 +1272,11 @@
 	</perk>
 
 	<perk name="perkLightArmor" parent="skillCraftsmanship" name_key="perkLightArmorName" desc_key="perkLightArmorDesc" icon="ui_game_symbol_light_armor2">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="1" desc_key="reqWorksmanshipLevel01"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="3" desc_key="reqWorksmanshipLevel03"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="5" desc_key="reqWorksmanshipLevel05"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="7" desc_key="reqWorksmanshipLevel07"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="10" desc_key="reqWorksmanshipLevel10"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="1" desc_key="reqWorkmanshipLevel01"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="3" desc_key="reqWorkmanshipLevel03"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="5" desc_key="reqWorkmanshipLevel05"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="7" desc_key="reqWorkmanshipLevel07"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="10" desc_key="reqWorkmanshipLevel10"/></level_requirements>
 		<effect_group>
 			<passive_effect name="PhysicalDamageResist" operation="perc_add" value="0.10,0.50" level="1,5" tags="lightarmor"/>
 			<passive_effect name="DegradationMax" operation="perc_add" value="0.20,1" level="1,5" tags="lightarmor"/>
@@ -1505,21 +1505,21 @@
 
 <!-- Craftsmanship Perks (Intellect) -->
 	<perk name="perkHammerForge" parent="skillCraftsmanship" name_key="perkHammerForgeName" desc_key="perkHammerForgeDesc" icon="ui_game_symbol_forge">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="4" desc_key="reqWorksmanshipLevel04"/>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="2" desc_key="reqWorkmanshipLevel04"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="7" desc_key="reqWorksmanshipLevel05"/>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="7" desc_key="reqWorkmanshipLevel05"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="8" desc_key="reqWorksmanshipLevel06"/>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="8" desc_key="reqWorkmanshipLevel06"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="9" desc_key="reqWorksmanshipLevel08"/>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="9" desc_key="reqWorkmanshipLevel08"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="10" desc_key="reqWorksmanshipLevel10"/>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="10" desc_key="reqWorkmanshipLevel10"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>								
 		<effect_group>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="resourceForgedCastIron,meleeToolFireaxeCastIron,meleeToolShovelCastIron,meleeToolPickaxeCastIron"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2,5" tags="forge,toolAnvil,meleeToolFireaxeIron,meleeToolPickaxeIron,meleeToolHoeIron,meleeToolShovelIron,meleeToolClawHammer,meleeToolSledgehammer,meleeToolHuntingKnife,meleeToolIronAxe"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="cementMixer,rebarFrameBlock,rebarFrameCNRInside,rebarFramePillar100,rebarFrameRamp,resourceCement,resourceConcreteMix"/>
-			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5" tags="toolForgeCrucible,resourceArrowHeadSteelAP,resourceForgedSteel,toolForgeCrucible,resourceArrowHeadSteelAP,resourceForgedSteel,meleeToolPickaxeSteel,meleeToolShovelSteel,meleeToolFireaxeSteel,meleeToolMachete,meleeToolWrenchSteel,meleeClubSteel"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1" tags="resourceForgedCastIron,meleeToolFireaxeCastIron,meleeToolShovelCastIron,meleeToolPickaxeCastIron"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="2" tags="forge,toolAnvil,meleeToolFireaxeIron,meleeToolPickaxeIron,meleeToolHoeIron,meleeToolShovelIron,meleeToolClawHammer,meleeToolSledgehammer,meleeToolHuntingKnife,meleeToolIronAxe"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3" tags="cementMixer,rebarFrameBlock,rebarFrameCNRInside,rebarFramePillar100,rebarFrameRamp,resourceCement,resourceConcreteMix"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4" tags="toolForgeCrucible,resourceArrowHeadSteelAP,resourceForgedSteel,toolForgeCrucible,resourceArrowHeadSteelAP,resourceForgedSteel,meleeToolPickaxeSteel,meleeToolShovelSteel,meleeToolFireaxeSteel,meleeToolMachete,meleeToolWrenchSteel,meleeClubSteel"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" tags="resourceHardenedSteel,resourceArrowHeadHardenedSteelAP,meleeToolFireaxeHardenedSteel,meleeToolPickaxeHardenedSteel,meleeToolShovelHardenedSteel,meleeToolMacheteHardenedSteel"/>
 			<effect_description level="1" desc_key="perkHammerForgeRank1Desc"/>
 			<effect_description level="2" desc_key="perkHammerForgeRank2Desc"/>
@@ -1530,15 +1530,15 @@
 	</perk>
 
 	<perk name="perkHammerForge2" parent="skillCraftsmanship" name_key="perkHammerForge2Name" desc_key="perkHammerForge2Desc" icon="ui_game_symbol_armor_iron">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="4" desc_key="reqIntellectLevel04"/>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="4" desc_key="reqWorkmanshipLevel04"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="5" desc_key="reqWorksmanshipLevel05"/>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="5" desc_key="reqWorkmanshipLevel05"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="6" desc_key="reqWorksmanshipLevel06"/>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="6" desc_key="reqWorkmanshipLevel06"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="8" desc_key="reqWorksmanshipLevel08"/>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="8" desc_key="reqWorkmanshipLevel08"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="10" desc_key="reqWorksmanshipLevel10"/>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="10" desc_key="reqWorkmanshipLevel10"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>						
 		
 		
@@ -1557,14 +1557,15 @@
 	</perk>
 
 	<perk name="perkGreaseMonkey" parent="skillCraftsmanship" name_key="perkGreaseMonkeyName" desc_key="perkGreaseMonkeyDesc" icon="ui_game_symbol_service">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="4" desc_key="reqWorksmanshipLevel04"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="5" desc_key="reqWorksmanshipLevel05"/>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="4" desc_key="reqWorkmanshipLevel04"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="7" desc_key="reqWorksmanshipLevel07"/>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="5" desc_key="reqWorkmanshipLevel05"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="9" desc_key="reqWorksmanshipLevel09"/>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="7" desc_key="reqWorkmanshipLevel07"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="10" desc_key="reqWorksmanshipLevel10"/>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="9" desc_key="reqWorkmanshipLevel09"/>
+								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="10" desc_key="reqWorkmanshipLevel10"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
 		<effect_group>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="vehicleWheels,vehicleBicycleChassis,vehicleBicycleHandlebars"/>
@@ -1581,15 +1582,15 @@
 	</perk>
 
 	<perk name="perkAdvancedEngineering" parent="skillCraftsmanship" name_key="perkAdvancedEngineeringName" desc_key="perkAdvancedEngineeringDesc" icon="ui_game_symbol_workbench">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="5" desc_key="reqWorksmanshipLevel05"/>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="5" desc_key="reqWorkmanshipLevel05"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="7" desc_key="reqWorksmanshipLevel07"/>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="7" desc_key="reqWorkmanshipLevel07"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="8" desc_key="reqWorksmanshipLevel08"/>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="8" desc_key="reqWorkmanshipLevel08"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="9" desc_key="reqWorksmanshipLevel09"/>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="9" desc_key="reqWorkmanshipLevel09"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="10" desc_key="reqWorksmanshipLevel10"/>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="10" desc_key="reqWorkmanshipLevel10"/>
 								<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqAttributeLevelDummy"/></level_requirements>
 		<effect_group>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
@@ -1608,11 +1609,11 @@
 	</perk>
 
 	<perk name="perkYeahScience" parent="skillCraftsmanship" name_key="perkYeahScienceName" desc_key="perkYeahScienceDesc" icon="ui_game_symbol_chemistry">
-		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="6" desc_key="reqWorksmanshipLevel06"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="7" desc_key="reqWorksmanshipLevel07"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="8" desc_key="reqWorksmanshipLevel08"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="9" desc_key="reqWorksmanshipLevel09"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorksmanship" operation="GTE" value="10" desc_key="reqWorksmanshipLevel10"/></level_requirements>
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="6" desc_key="reqWorkmanshipLevel06"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="7" desc_key="reqWorkmanshipLevel07"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="8" desc_key="reqWorkmanshipLevel08"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="9" desc_key="reqWorkmanshipLevel09"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attWorkmanship" operation="GTE" value="10" desc_key="reqWorkmanshipLevel10"/></level_requirements>
 
 		<effect_group>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5"
