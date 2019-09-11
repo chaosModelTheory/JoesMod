@@ -3424,7 +3424,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="vehicleBicycleChassis" count="1" tags="learnable">
-	<ingredient name="resourceForgedIron" count="5"/>
+	<ingredient name="resourceMetalPipe" count="10"/>
 	<ingredient name="resourceMechanicalParts" count="2"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceLeather" count="2"/>
@@ -3915,13 +3915,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="drinkJarBoiledWater" count="1"/>
 </recipe>
 
-<recipe name="raymondsNoodles" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable" >
+<recipe name="raymondsNoodles" count="1" craft_area="campfire"  tags="learnable" >
 	<ingredient name="foodCanSoup" count="1"/>
 	<ingredient name="pasta" count="1"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>
 </recipe>
 
-<recipe name="raymondsNoodles" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable" >
+<recipe name="raymondsNoodles" count="1" craft_area="campfire"  tags="learnable" >
 	<ingredient name="foodCanMiso" count="1"/>
 	<ingredient name="pasta" count="1"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>
@@ -3935,17 +3935,17 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="dough" count="2"/>
 </recipe>
 
-<recipe name="beefNoodles" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable" >
+<recipe name="beefNoodles" count="1" craft_area="campfire"  tags="learnable" >
 	<ingredient name="foodCanBeef" count="1"/>
 	<ingredient name="pasta" count="1"/>
 </recipe>
 
-<recipe name="chickenNoodles" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable" >
+<recipe name="chickenNoodles" count="1" craft_area="campfire"  tags="learnable" >
 	<ingredient name="foodCanChicken" count="1"/>
 	<ingredient name="pasta" count="1"/>
 </recipe>
 
-<recipe name="lambNoodles" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable" >
+<recipe name="lambNoodles" count="1" craft_area="campfire"  tags="learnable" >
 	<ingredient name="foodCanLamb" count="1"/>
 	<ingredient name="pasta" count="1"/>
 </recipe>
@@ -3972,7 +3972,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="foodCanPeas" count="1"/>
 	<ingredient name="dough" count="1"/>
 	<ingredient name="shortening" count="1"/>
-	<ingredient name="foodCanStock" count="1"/>
 </recipe>
 
 <recipe name="grilledMeatSandwich" count="2" tags="learnable" >
@@ -3993,6 +3992,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <recipe name="meleeClubSteel" count="1" tags="learnable">
 	<ingredient name="resourceForgedSteel" count="30"/>
 	<ingredient name="resourceLeather" count="2"/>
+</recipe>
+
+<recipe name="meleeToolHoeCastIron" count="1" tags="learnable">
+	<ingredient name="resourceForgedCastIron" count="16"/>
+	<ingredient name="resourceWood" count="10"/>
 </recipe>
 
 </recipes>

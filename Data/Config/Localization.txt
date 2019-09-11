@@ -4181,13 +4181,7 @@ reqGenericPoints08,progression,Attribute,New,Buy: 8 PT,,,,,
 reqGenericPoints09,progression,Attribute,New,Buy: 9 PT,,,,,
 reqGenericPoints10,progression,Attribute,New,Buy: 10 PT,,,,,
 paintGroupDesc,progression,Perk,New,This skill cannot be purchased with skill points. Find and read magazines to unlock additional painting options.,,,,,
-perkAdvancedEngineeringDesc,progression,Perk,New,"Engineer advanced items such as firearms, electrical items and traps.",,,,,
-perkAdvancedEngineeringName,progression,Perk,New,Advanced Engineering,,,,,
-perkAdvancedEngineeringRank1Desc,progression,Perk,New,"Craft workbench, table saw, crossbow, compound bow, mining helmet & basic electrical components.",,,,,
-perkAdvancedEngineeringRank2Desc,progression,Perk,New,"Craft hunting rifle, pistol and pump shotgun, advanced electrical components & dart traps.",,,,,
-perkAdvancedEngineeringRank3Desc,progression,Perk,New,"Craft SMG, AK47, Marksman Rifle & Magnum, electric fences & blade traps. ",,,,,
-perkAdvancedEngineeringRank4Desc,progression,Perk,New,"Craft shotgun turret, Rocket Launcher & nailgun.",,,,,
-perkAdvancedEngineeringRank5Desc,progression,Perk,New,"Craft auto turrets, chainsaw and augers. ",,,,,
+
 perkArcheryDesc,progression,Perk,New,Master the use of bows and crossbows.,,,,,
 perkArcheryName,progression,Perk,New,Archery,,,,,
 perkArcheryRank1Desc,progression,Perk,New,10% Faster aiming with bows.\nreload and draw are 10% faster.,,,,,
@@ -7257,6 +7251,8 @@ meleeToolFireaxeCastIron,items,Tool,KgNone,Cast Iron Fireaxe,
 meleeToolFireaxeCastIronDesc,items,Tool,KgNone,The cast iron fireaxe is a Crude tool for harvesting wood.
 meleeToolShovelCastIron,items,Tool,KgNone,Cast Iron Shovel,
 meleeToolShovelCastIronDesc,items,Tool,KgNone,The Cast iron shovel is a crude tool for digging through earth, sand or snow.,
+meleeToolHoeCastIron,items,Tool,KgNone,Cast Iron Garden Hoe,
+meleeToolHoeCastIronDesc,items,Tool,KgNone,The Cast iron gardening hoe is a basic tool for turning poor soil into fertile soil for planting crops.
 meleeToolPickaxeCastIron,items,Tool,KgNone,Cast Iron Pickaxe,
 meleeToolPickaxeCastIronDesc,items,Tool,KgNone,The cast iron pickaxe is a crude tool for breaking stone and harvesting minerals.
 meleeToolIronAxe,items,Tool,KgNone,Iron Hatchet,
@@ -7365,3 +7361,19 @@ grilledMeatSandwichDesc,items,Food,EnChanged,A tastie grilled meat Sanwich.,
 
 meleeClubSteel,items,Melee,KgNone,Steel Club,
 meleeClubSteelDesc,items,Melee,KgNone,Like a Iron club but more durable and does more damage.
+
+perkAdvancedEngineeringDesc,progression,Perk,New,"Engineer advanced items such as electrical items and traps.",,,,,
+perkAdvancedEngineeringName,progression,Perk,New,Advanced Engineering,,,,,
+perkAdvancedEngineeringRank1Desc,progression,Perk,New,"Craft workbench, table saw, mining helmet & basic electrical components.",,,,,
+perkAdvancedEngineeringRank2Desc,progression,Perk,New,"Craft advanced electrical components & dart traps.",,,,,
+perkAdvancedEngineeringRank3Desc,progression,Perk,New,"Craft electric fences & blade traps. ",,,,,
+perkAdvancedEngineeringRank4Desc,progression,Perk,New,"Craft shotgun turret & nailgun.",,,,,
+perkAdvancedEngineeringRank5Desc,progression,Perk,New,"Craft auto turrets, chainsaw and augers. ",,,,,
+
+perkAdvancedEngineering2Desc,progression,Perk,New,"Engineer firearms",,,,,
+perkAdvancedEngineering2Name,progression,Perk,New,Weapon Engineering,,,,,
+perkAdvancedEngineering2Rank1Desc,progression,Perk,New,"Craft crossbow & compound bow.",,,,,
+perkAdvancedEngineering2Rank2Desc,progression,Perk,New,"Craft Hunting rifle, pistol and pump shotgun.",,,,,
+perkAdvancedEngineering2Rank3Desc,progression,Perk,New,"Craft SMG & AK47, . ",,,,,
+perkAdvancedEngineering2Rank4Desc,progression,Perk,New,"Craft Marksman Rifle & Magnum.",,,,,
+perkAdvancedEngineering2Rank5Desc,progression,Perk,New,"Craft Rocket Launcher. ",,,,,

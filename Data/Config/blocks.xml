@@ -14127,7 +14127,7 @@ NOT the TextureNumber.
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapPolymers" count="2,8" tag="salvageHarvest"/>
-	<drop event="Destroy" count="0"/>
+	<drop event="Destroy" name="resourceScrapPolymers" count="2"/>
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 
@@ -17405,6 +17405,7 @@ NOT the TextureNumber.
 	<property name="Model" value="Entities/OutdoorDecor/tire02Prefab"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="vehicleWheels" count="1" prob="0.16" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceScrapPolymers" count="4,8" tag="salvageHarvest"/>
 	<drop event="Destroy" name="resourceScrapPolymers" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother,foutdoor"/>
