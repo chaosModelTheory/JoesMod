@@ -13486,7 +13486,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="HoldType" value="50"/>
 	<property name="Meshfile" value="Items/Tools/hoe_ironPrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceForgedIron"/>
+	<property name="RepairTools" value="resourceForgedCastIron"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
