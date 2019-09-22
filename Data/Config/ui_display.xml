@@ -461,7 +461,7 @@
 			<crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
 			<crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
 		</crafting_category_list>
-
+		
 		<crafting_category_list display_type="workbench">
 			<crafting_category name="Basics" icon="ui_game_symbol_hammer" display_name="lblCategoryBasics" />
 			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />

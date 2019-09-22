@@ -78,7 +78,7 @@
 		<entity name="zombieBurnt"/>
 		<entity name="animalZombieBear"/>
 		<entity name="zombieWightFeral"/>
-		<entity name="animalZombieVulture" prob="0.6"/>
+		<entity name="animalZombieVulture" prob="0.3"/>
 		<entity name="animalZombieVultureRadiated"  prob="0.4"/>
 		<entity name="zombieMaleHazmat" prob="0.2"/>
 		<entity name="zombieFatHawaiian"/>
@@ -104,7 +104,7 @@
 		<entity name="zombieFatCop"/>
 		<entity name="zombieBurnt"/>
 		<entity name="zombieWightFeral"/>
-		<entity name="animalZombieVulture" prob="0.6"/>
+		<entity name="animalZombieVulture" prob="0.3"/>
 		<entity name="animalZombieVultureRadiated"  prob="0.4"/>
 		<entity name="zombieMaleHazmat" prob="0.2"/>
 		<entity name="zombieFatHawaiian"/>
@@ -127,7 +127,7 @@
 		<entity name="zombieBurnt" prob="0.07"/>
 		<entity name="animalZombieBear" prob="0.1"/>
 		<entity name="zombieWightFeral" prob="0.1"/>
-		<entity name="animalZombieVulture" prob="0.6"/>
+		<entity name="animalZombieVulture" prob="0.3"/>
 		<entity name="animalZombieVultureRadiated"  prob="0.4"/>
 		<entity name="zombieFatHawaiian"/>
 	</entitygroup>
@@ -224,7 +224,7 @@
 
 	<entitygroup name="EnemyAnimalsDesert">
 		<entity name="invisibleAnimalEnemy" prob="6"/>
-		<entity name="animalZombieVulture"/>
+		<entity name="animalZombieVulture" prob="0.4"/>
 		<entity name="animalSnake"/>
 	</entitygroup>
 
@@ -267,7 +267,7 @@
 
 	<entitygroup name="EnemyAnimalsBurntForest">
 		<entity name="invisibleAnimalEnemy" prob="6"/>
-		<entity name="animalZombieVulture"/>
+		<entity name="animalZombieVulture" prob="0.4"/>
 		<entity name="animalZombieBear" prob="0.15"/>
 	</entitygroup>
 
@@ -281,7 +281,7 @@
 
 	<entitygroup name="EnemyAnimalsPlains">
 		<entity name="invisibleAnimalEnemy" prob="6"/> <!-- The first entity in the list of a group determines if it can spawn in safe zones or not. This animal is not friendly therefore this group will not spawn in safe zones-->
-		<entity name="animalZombieVulture"/>
+		<entity name="animalZombieVulture" prob="0.4"/>
 		<entity name="animalSnake"/>
 		<entity name="animalWolf"/>
 	</entitygroup>
@@ -302,7 +302,7 @@
 		<entity name="animalDoe" prob="0.73"/>
 		<entity name="animalBoar"/>
 		<entity name="animalSnake"/>
-		<entity name="animalZombieVulture"/>
+		<entity name="animalZombieVulture" prob="0.4"/>
 		<entity name="animalWolf"/>
 		<entity name="animalDireWolf" prob="0.15"/>
 		<entity name="animalBear" prob="0.15"/>
@@ -310,7 +310,7 @@
 
 	<entitygroup name="EnemyAnimalsWasteland" >
 		<entity name="animalSnake"/>
-		<entity name="animalZombieVulture"/>
+		<entity name="animalZombieVulture" prob="0.4"/>
 		<entity name="animalZombieDog"/>
 		<entity name="animalZombieBear" prob="0.15"/>
 	</entitygroup>

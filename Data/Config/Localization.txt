@@ -2825,7 +2825,7 @@ modGunRetractingStockDesc,item_modifiers,mod,New,Improves weapon handling while 
 modGunRodAndSpring,item_modifiers,mod,New,Rod and Spring Replacement,,,,,
 modGunRodAndSpringDesc,item_modifiers,mod,New,Increases the rate of fire on self-loading weapons and increases recoil.,,,,,
 modGunScopeLarge,item_modifiers,mod,New,Scope 8x,,,,,
-modGunScopeLargeDesc,item_modifiers,mod,New,Increases visual magnification when aiming.\nInstalls into long rifles.,,,,,
+modGunScopeLargeDesc,item_modifiers,mod,New,Increases visual magnification when aiming.\nInstalls into 50 cal Rifle.,,,,,
 modGunScopeMedium,item_modifiers,mod,New,Scope 4x,,,,,
 modGunScopeMediumDesc,item_modifiers,mod,New,Increases visual magnification when aiming.\nInstalls into medium sized firearms and crossbows.,,,,,
 modGunScopeSmall,item_modifiers,mod,New,Scope 2x,,,,,
@@ -3026,7 +3026,7 @@ modMeleeClubBurningShaft,items,mod,New,Burning Shaft Mod,,,,,
 modMeleeClubBurningShaftDesc,items,mod,New,A melee item can double as a light source and set enemies on fire.,,,,,
 modMeleeClubBurningShaftSchematic,items,Book,New,Burning Shaft Mod Schematic,,,,,
 modMeleeErgonomicGrip,items,mod,New,Ergonomic Grip,,,,,
-modMeleeErgonomicGripDesc,items,mod,New,Decreases melee stamina usage by 10% and increases weapon handling of bows by 10%.,,,,,
+modMeleeErgonomicGripDesc,items,mod,New,Decreases melee stamina usage by 10% and increases weapon handling of bows and Crossbows by 10%.,,,,,
 modMeleeErgonomicGripSchematic,items,Book,New,Ergonomic Grip Schematic,,,,,
 modMeleeFortifyingGrip,items,mod,New,Fortifying Grip,,,,,
 modMeleeFortifyingGripDesc,items,mod,New,When health is below 50% gain 1 hit point every 5 seconds.,,,,,
@@ -3356,7 +3356,7 @@ foodCanLamb,items,Food,KgNone,Lamb Rations,Rations d'agneau,Lamm-Ration,,Porció
 foodCanLambDesc,items,Food,KgNone,Lamb rations are great when the world has ended and you're on the lamb. ,Les rations d'agneau sont parfaites pour ceux qui sont loin d'être doux comme des agneaux pendant l'apocalypse.,"Lamm-Rationen sind toll, wenn die Welt untergegangen ist und du das Weite suchst.",,Las porciones de cordero son geniales cuando el mundo se ha acabado y estás a la fuga.,
 foodCanMiso,items,Food,KgNone,Can of Miso,Conserve de miso,Dose Misosuppe,,Lata de miso,
 foodCanMisoDesc,items,Food,EnChanged,It's time to soup it up with some Miso soup mmm mmm good.,C'est l'heure de la soupe miso. Miam miam.,"Eine leckere Misosuppe ist jetzt angesagt. Mmmmm, lecker.",,"Es hora de tomar algo de sopa de miso. ¡Mmm, deliciosa!",
-foodCanPasta,items,Food,KgNone,Can of Pasta,Conserve de pâtes,Dose Nudeln,,Lata de pasta,
+foodCanPasta,items,Food,KgNone,Can of Ravioli,Conserve de pâtes,Dose Nudeln,,Lata de pasta,
 foodCanPastaDesc,items,Food,EnChanged,Now that's Italian! Che figata!,"Ça, c'est italien ! Che figata !",Das nenne ich italienisch! Che figata!,,¡Comida italiana! Che figata!,
 foodCanPears,items,Food,KgNone,Can of Pears,Conserve de poires,Dose Birnen,,Lata de peras,
 foodCanPearsDesc,items,Food,KgNone,Maintain that perfect pear shape by eating canned pears.,Gardez la ligne en mangeant des poires en conserve.,"Behalte deine perfekte Birnenform bei, indem du Birnen aus der Dose isst.",,Come peras enlatadas para mantener esa perfecta forma de pera.,
@@ -3420,8 +3420,8 @@ gunCrossbow,items,Gun,KgNone,Crossbow,Arbalète,Armbrust,,Ballesta,
 gunCrossbowDesc,items,Gun,EnChanged,A crossbow is slow to reload but does more damage than a bow.\nHold reload to use alternate ammo.\nRepair with Forged Iron.,"Une arbalète inflige plus de dégâts qu'un arc en bois. Idéale pour la chasse, cette arme ne fait pas de bruit. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.","Eine Armbrust verursacht mehr Schaden als ein Holzbogen. Eignet sich gut dazu, geräuschlos zu jagen. Nachladen gedrückt halten, um zwischen Munitionsarten zu wechseln.",,Una ballesta inflige más daño que un arco de madera. Es buena para cazar y no hacer ruido. Mantén presionado recargar para usar munición alternativa.,
 gunHuntingRifle,items,Gun,KgNone,Hunting Rifle,Fusil de chasse,Jagdgewehr,,Rifle de caza,
 gunHuntingRifleDesc,items,Gun,EnChanged,This common farmer's hunting rifle uses 7.62mm ammo.\nRepair with Repair Kits.,"Ce fusil de chasse de fermier classique nécessite des munitions de calibre 7,62 mm. Peut être assemblé, réparé et amélioré une fois que vous avez lu le schéma associé.","Dieses gewöhnliches Jagdgewehr eines Bauern verwendet 7,62 mm Munition. Kann zusammengesetzt, repariert und verbessert werden, wenn du den Bauplan gelesen hast.",,"Este rifle de caza normal de granjero utiliza munición de 7,62 mm. Una vez que has leído el esquema, lo puedes armar, reparar y mejorar.",
-gunMR10,items,Gun,KgNone,Marksman Rifle,MR-10,MR-10,,MR-10,
-gunMR10Desc,items,Gun,New,This marksman's rifle uses 7.62mm ammo and is your first choice if you want to make that shot count.\nRepair with Repair Kits.,"Le fusil de précision nécessite des munitions de calibre 7,62 mm et possède une lunette pour zoomer. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Dieses Präzisionsgewehr verwendet 7,62 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,"El rifle de francotirador utiliza munición de 7,62 mm y tiene una mira para enfocar. Se puede rearmar y reparar una vez que has leído el esquema.",
+gunMR10,items,Gun,KgNone,MR-10,
+gunMR10Desc,items,Gun,New,This MR-10 rifle uses 7.62mm ammo and is your first choice if you want to make that shot count.\nRepair with Repair Kits.,"Le fusil de précision nécessite des munitions de calibre 7,62 mm et possède une lunette pour zoomer. L'arme peut être réassemblée et réparée si vous lisez le schéma.","Dieses Präzisionsgewehr verwendet 7,62 mm Munition. Kann zusammengesetzt und repariert werden, wenn du den Bauplan gelesen hast.",,"El rifle de francotirador utiliza munición de 7,62 mm y tiene una mira para enfocar. Se puede rearmar y reparar una vez que has leído el esquema.",
 gunPistol,items,Gun,KgNone,Pistol,Pistolet,Pistole,,Revólver,
 gunPistolDesc,items,Gun,EnChanged,A basic pistol that uses 9mm ammo.\nRepair with Repair Kits.,Un pistolet de base. Nécessite des munitions de calibre 9 mm. L'arme peut être réassemblée et réparée si vous lisez « Le livre des pistolets ».,"Eine einfache Pistole. Verwendet 9 mm Munition. Kann zusammengesetzt und repariert werden, wenn du das Buch „Pistolen“ gelesen hast.",,Un revólver básico. Utiliza munición de 9 mm. Se puede rearmar y reparar si has leído el libro de la pistola.,
 gunPumpShotgun,items,Gun,KgNone,Shotgun,Fusil à pompe,Schrotflinte,,Escopeta,
@@ -4063,7 +4063,7 @@ attFortitudeRank7Desc,progression,Attribute,New,Increase your max health to 160.
 attFortitudeRank8Desc,progression,Attribute,New,Increase your max health to 170.,,,,,
 attFortitudeRank9Desc,progression,Attribute,New,Increase your max health to 180.,,,,,
 attintellect,progression,Attribute,New,Intellect,,,,,
-attIntellectDesc,progression,Attribute,New,Intellect is the measure of your mental ability. Increasing Intellect improves crafting speed.,,,,,
+attIntellectDesc,progression,Attribute,New,Intellect is the measure of your mental ability.,,,,,
 attIntellectName,progression,Attribute,New,Attribute: Intellect,,,,,
 
 attIntellectRank1Desc,progression,Attribute,New,Crafting is 5% faster.,,,,,
@@ -4519,11 +4519,11 @@ perkWellInsulatedRank4Desc,progression,Perk,New,Grants 20 insulation against bot
 perkWellInsulatedRank5Desc,progression,Perk,New,Grants 25 insulation against both heat and cold. ,,,,,
 perkYeahScienceDesc,progression,Perk,New,"Use Chemistry to create fuel, explosives and ammunition.",,,,,
 perkYeahScienceName,progression,Perk,New,"Yeah, Science!",,,,,
-perkYeahScienceRank1Desc,progression,Perk,New,"You can craft chemistry stations, standard ammunition, alcohol, pipe bombs, hub cap mines, cooking pot mines, gasoline & oil. Can use tier 1 schematics.",,,,,
+perkYeahScienceRank1Desc,progression,Perk,New,"You can craft chemistry stations, standard ammunition, alcohol,  gasoline & oil. Can use tier 1 schematics.",,,,,
 perkYeahScienceRank2Desc,progression,Perk,New,"You can craft military fiber, dynamite, air filter mines, advanced bolts and arrows. Can use tier 2 schematics.",,,,,
 perkYeahScienceRank3Desc,progression,Perk,New,You can craft advanced firearm ammunition. Can use tier 3 schematics.,,,,,
-perkYeahScienceRank4Desc,progression,Perk,New,Rocket Science! Now you can craft rockets\nand advanced fuels. Can use tier 4 schematics.,,,,,
-perkYeahScienceRank5Desc,progression,Perk,New,You can craft battery banks. Can use tier 5 schematics.,,,,,
+perkYeahScienceRank4Desc,progression,Perk,New,Rocket Science! Now you can craft advanced fuels. Can use tier 4 schematics.,,,,,
+perkYeahScienceRank5Desc,progression,Perk,New,You can craft battery banks and Acid. Can use tier 5 schematics.,,,,,
 secretStash,progression,Perk,New,Secret Stash,,,,,
 secretStashDesc,progression,Perk,New,By increasing this perk traders will show you more and better items from their Secret Stash.,,,,,
 sexualTyranosaurus,progression,Perk,GrChanged,Sexual Tyrannosaurus,Tyrannosaure en rut,Wie ein Wildes Tier,,Tiranosaurio sexual,
@@ -7299,16 +7299,16 @@ attworkmanship,progression,Attribute,New,Workmanship,,,,,
 attWorkmanshipName,progression,Attribute,New,Attribute: Workmanship,,,,,
 attWorkmanshipDesc,progression,Attribute,New,Workmanship increases both your quality of crafted items and the speeds in which you make them.
 
-attWorkmanshipRank10Desc,progression,Attribute,New,You can craft flawless quality items. Crafting is 65% faster.,,,,,
-attWorkmanshipRank1Desc,progression,Attribute,New,You can craft faulty quality items.,,,,,
-attWorkmanshipRank2Desc,progression,Attribute,New,You can craft poor quality items. Crafting is 5% faster.,,,,,
-attWorkmanshipRank3Desc,progression,Attribute,New,Crafting is 15% faster.,,,,,
-attWorkmanshipRank4Desc,progression,Attribute,New,You can craft fine quality items. Crafting is 25% faster. ,,,,,
-attWorkmanshipRank5Desc,progression,Attribute,New,Crafting is 35% faster.,,,,,
-attWorkmanshipRank6Desc,progression,Attribute,New,You can craft good quality items. Crafting is now 45% faster.,,,,,
-attWorkmanshipRank7Desc,progression,Attribute,New,Crafting is 50% faster.,,,,,
-attWorkmanshipRank8Desc,progression,Attribute,New,You can craft great quality items. Crafting is 55% faster.,,,,,
-attWorkmanshipRank9Desc,progression,Attribute,New,Crafting is 60% faster.,,,,,
+attWorkmanshipRank10Desc,progression,Attribute,New,You can craft flawless quality items.,,,,,
+attWorkmanshipRank1Desc,progression,Attribute,New, Crafting is 5% faster.,,,,,
+attWorkmanshipRank2Desc,progression,Attribute,New,You can craft poor quality items.,,,,,
+attWorkmanshipRank3Desc,progression,Attribute,New,Crafting is 10% faster.,,,,,
+attWorkmanshipRank4Desc,progression,Attribute,New,You can craft fine quality items.,,,,,
+attWorkmanshipRank5Desc,progression,Attribute,New,Crafting is 15% faster.,,,,,
+attWorkmanshipRank6Desc,progression,Attribute,New,You can craft good quality items.,,,,,
+attWorkmanshipRank7Desc,progression,Attribute,New,Crafting is 20% faster.,,,,,
+attWorkmanshipRank8Desc,progression,Attribute,New,You can craft great quality items.,,,,,
+attWorkmanshipRank9Desc,progression,Attribute,New,Crafting is 25% faster.,,,,,
 
 reqWorkmanshipLevel01,progression,Attribute,New,Workmanship Level 1,,,,,
 reqWorkmanshipLevel02,progression,Attribute,New,Workmanship Level 2,,,,,
@@ -7377,3 +7377,133 @@ perkAdvancedEngineering2Rank2Desc,progression,Perk,New,"Craft Hunting rifle, pis
 perkAdvancedEngineering2Rank3Desc,progression,Perk,New,"Craft SMG & AK47, . ",,,,,
 perkAdvancedEngineering2Rank4Desc,progression,Perk,New,"Craft Marksman Rifle & Magnum.",,,,,
 perkAdvancedEngineering2Rank5Desc,progression,Perk,New,"Craft Rocket Launcher. ",,,,,
+
+gunCrossbowSteel,items,Gun,KgNone,Steel Crossbow,
+gunCrossbowSteelDesc,items,Gun,EnChanged,The Steel Crossbow holds 5 Bolts at once and has the ability to fire farther with a much tighter spread.
+modGunDrumMagazine,item_modifiers,mod,New,Drum Magazine.
+modGunDrumMagazineDesc,item_modifiers,mod,New,Increases magazine capacity.
+
+gunAA12Shotgun,items,Gun,KgNone,AA-12 Shotgun,
+gunAA12ShotgunDesc,items,Gun,EnChanged,Feeding from a drum magazine of 32 shells coupled with the fire rate of 300 shells per minute the AA-12 lays down the “fuck you” at an industrial level.
+ammoShotgunRifledSlug,items,Ammo,EnChanged,Jo-Tech Rifled Slug (Ammo),
+ammoShotgunRifledSlugDesc,items,Ammo,KgNone,Rifled Slugs do more damage more accurately at longer distances.\n\n\n\nJo-Tech Premium ammo can only be found or bought from traders.,
+meleeToolSteelAuger,items,Tool,KgNone,Jo-Tech Auger,
+meleeToolSteelAugerDesc,items,Tool,KgNone,Bigger Faster Stronger. all the things you love about a Auger but better. \n\n\n\nJo-Tech Premium Tools can only be found or bought from traders.
+meleeToolSteelChainsaw,items,Tool,KgNone,Jo-Tech Chainsaw,
+meleeToolSteelChainsawDesc,items,Tool,KgNone,Bigger Faster Stronger. all the things you love about a Chainsaw but better. \n\n\n\nJo-Tech Premium Tools can only be found or bought from traders.
+gun44LawGiver,items,Gun,KgNone,The Law Giver,
+gun44LawGiverDesc,items,Gun,KgNone,The The Law Giver inspired by none other than Judge Dredd himself.\n\n\nThis pistol fires 44 Magnums.
+ammo9mmJTBullet,items,Ammo,EnChanged,Jo-Tech 9mm Round (Ammo),
+ammo9mmJTBulletDesc,items,Ammo,KgNone,A premium 9mm round used as firearm ammunition.\n\n\n\nJo-Tech Premium ammo can only be found or bought from traders.,
+ammo762mmJTBulletFMJ,items,Ammo,EnChanged,Jo-Tech 7.62mm Round (Ammo),
+ammo762mmJTBulletFMJDesc,items,Ammo,KgNone,A premium 7.62mm round used as firearm ammunition. \n\n\n\nJo-Tech Premium ammo can only be found or bought from traders.,
+ammo44MagnumJTBullet,items,Ammo,New,Jo-Tech .44 Magnum Round (Ammo),
+ammo44MagnumJTBulletDesc,items,Ammo,New,A premium .44 Magnum used as firearm ammunition. \n\n\n\nJo-Tech Premium ammo can only be found or bought from traders.,
+gun50CalGBSpecial,items,Gun,KgNone,GB'S Special 50 Cal ,
+gun50CalGBSpecialDesc,items,Gun,New,This 50 Cal rifle fires a round powerful enough to drop most Zombies on the spot.
+ammo50CalBullet,items,Ammo,EnChanged,50 Cal Round (Ammo),
+ammo50CalBulletDesc,items,Ammo,KgNone,A regular 50 Cal round used as firearm ammunition.
+ammo50CalJTBullet,items,Ammo,EnChanged,Jo-Tech 50 Cal Round (Ammo),
+ammo50CalJTBulletDesc,items,Ammo,KgNone,A premium 50 Cal round used as firearm ammunition.\n\n\n\nJo-Tech Premium ammo can only be found or bought from traders.,
+
+statShowGunsmith,UI,Item stat,New,Gunsmith,,,,,
+
+attgunsmith,progression,Attribute,New,Gunsmith,,,,,
+attGunsmithName,progression,Attribute,New,Attribute: Gunsmith,,,,,
+attGunsmithDesc,progression,Attribute,New,Gunsmith unlocks recipes for the most powerful guns and ammo.,,,,,
+
+attGunsmithRank10Desc,progression,Attribute,New,test.,,,,,
+attGunsmithRank1Desc,progression,Attribute,New,test.,,,,,
+attGunsmithRank2Desc,progression,Attribute,New,test.,,,,,
+attGunsmithRank3Desc,progression,Attribute,New,test.,,,,,
+attGunsmithRank4Desc,progression,Attribute,New,test.,,,,,
+attGunsmithRank5Desc,progression,Attribute,New,test.,,,,,
+attGunsmithRank6Desc,progression,Attribute,New,test.,,,,,
+attGunsmithRank7Desc,progression,Attribute,New,test.,,,,,
+attGunsmithRank8Desc,progression,Attribute,New,test.,,,,,
+attGunsmithRank9Desc,progression,Attribute,New,test.,,,,,
+
+reqGunsmithLevel01,progression,Attribute,New,Gunsmith Level 1,,,,,
+
+reqGunsmithLevel01-10,progression,Attribute,New,Player Level 10,,,,,
+reqGunsmithLevel01-20,progression,Attribute,New,Player Level 20,,,,,
+reqGunsmithLevel01-30,progression,Attribute,New,Player Level 30,,,,,
+reqGunsmithLevel01-40,progression,Attribute,New,Player Level 40,,,,,
+reqGunsmithLevel01-50,progression,Attribute,New,Player Level 50,,,,,
+reqGunsmithLevel01-60,progression,Attribute,New,Player Level 60,,,,,
+reqGunsmithLevel01-70,progression,Attribute,New,Player Level 70,,,,,
+reqGunsmithLevel01-80,progression,Attribute,New,Player Level 80,,,,,
+
+skillWeaponsEngineeringDesc,progression,Skill,New,"Weapons Engineering",,,,,
+skillWeaponsEngineeringName,progression,Skill,New,Advanced Weapons Recipes,
+
+
+skillPistolsDesc,progression,Skill,New,"Craft Specialty Pistols",,,,,
+skillPistolsName,progression,Skill,New,Pistols Recipes,
+
+perkPistolRecipesDesc,progression,Perk,New,"Unlocks Pistol Recipe",,,,,
+perkPistolRecipesName,progression,Perk,New,Pistol Mastery,,,,,
+
+perkPistolRecipes2Desc,progression,Perk,New,"Unlocks .44 MAGNUM Recipe",,,,,
+perkPistolRecipes2Name,progression,Perk,New,.44 MAGNUM Mastery,,,,,
+
+perkPistolRecipes3Desc,progression,Perk,New," Unlocks the law giver Recipe",,,,,
+perkPistolRecipes3Name,progression,Perk,New,the law giver Mastery,,,,,
+
+perkPistolRecipesRank1Desc,progression,Perk,New,"Craft a Pistol.",,,,,
+perkPistolRecipesRank2Desc,progression,Perk,New,"Craft a 44 MAGNUM.",,,,,
+perkPistolRecipesRank3Desc,progression,Perk,New,"Craft The Law Giver.",,,,,
+
+skillRiflesDesc,progression,Skill,New,"Craft Specialty Rifles",,,,,
+skillRiflesName,progression,Skill,New,Rifles Recipes,
+
+perkRifleRecipesDesc,progression,Perk,New,"Unlocks Hunting Rifle Recipe",,,,,
+perkRifleRecipesName,progression,Perk,New,Hunting Rifle Mastery,,,,,
+
+perkRifleRecipes2Desc,progression,Perk,New,"Unlocks SMG & AK-47 Recipe",,,,,
+perkRifleRecipes2Name,progression,Perk,New,SMG & AK-47 Mastery,,,,,
+
+perkRifleRecipes3Desc,progression,Perk,New," Unlocks the MR-10 Recipe",,,,,
+perkRifleRecipes3Name,progression,Perk,New,MR-10 Mastery,,,,,
+
+perkRifleRecipes4Desc,progression,Perk,New," Unlocks the GB Special 50 Cal Recipe",,,,,
+perkRifleRecipes4Name,progression,Perk,New,GB Special 50 CalMastery,,,,,
+
+perkRifleRecipesRank1Desc,progression,Perk,New,"Craft a Hunting Rifle.",,,,,
+perkRifleRecipesRank2Desc,progression,Perk,New,"Craft a SMG & AK-47.",,,,,
+perkRifleRecipesRank3Desc,progression,Perk,New,"Craft MR-10.",,,,,
+perkRifleRecipesRank4Desc,progression,Perk,New,"Craft GB Special 50 Cal.",,,,,
+
+skillShotgunsDesc,progression,Skill,New,"Craft Specialty Shotguns",,,,,
+skillShotgunsName,progression,Skill,New,Shotguns Recipes,
+
+perkShotgunRecipesDesc,progression,Perk,New,"Unlocks Shotgun Recipe",,,,,
+perkShotgunRecipesName,progression,Perk,New,Shotgun Mastery,,,,,
+
+perkShotgunRecipes2Desc,progression,Perk,New,"Unlocks AA-12 Shotgun Recipe",,,,,
+perkShotgunRecipes2Name,progression,Perk,New,AA-12 Shotgun Mastery,,,,,
+
+perkShotgunRecipesRank1Desc,progression,Perk,New,"Craft a Shotgun.",,,,,
+perkShotgunRecipesRank2Desc,progression,Perk,New,"Craft a AA-12 Shotgun.",,,,,
+
+skillOrdnanceDesc,progression,Skill,New,"Craft Specialty Ordnance",,,,,
+skillOrdnanceName,progression,Skill,New,Ordnance Recipes,
+
+perkOrdnanceRecipesDesc,progression,Perk,New,"Unlocks Pipebombs, TNT, and Mine Recipes",,,,,
+perkOrdnanceRecipesName,progression,Perk,New, Basic Ordnance Mastery,,,,,
+
+perkOrdnanceRecipes2Desc,progression,Perk,New,"Unlocks Explosive Crossbow Bolts and Molotovs",,,,,
+perkOrdnanceRecipes2Name,progression,Perk,New,Novice Ordnance Mastery,,,,,
+
+perkOrdnanceRecipes3Desc,progression,Perk,New," Unlocks the Rocket Launcher Recipe",,,,,
+perkOrdnanceRecipes3Name,progression,Perk,New,Demo Mastery,,,,,
+
+perkOrdnanceRecipesRank1Desc,progression,Perk,New,"Craft Pipebombs, TNT, and Mines",,,,,
+perkOrdnanceRecipesRank2Desc,progression,Perk,New,"Craft Explosive Crossbow Bolts and Molotovs.",,,,,
+perkOrdnanceRecipesRank3Desc,progression,Perk,New,"Craft a Rocket Launcher.",,,,,
+
+shotgunSlugTurret,blocks,Electricity,New,Shotgun Slug Turret,,,,,
+shotgunSlugTurretDesc,blocks,Electricity,New,A shotgun turret that fires Slugs!?,,,,,
+
+cookedravioli,items,Food,KgNone,cooked can of ravioli,
+cookedravioliDesc,items,Food,EnChanged,Now with less Food Poisoning!

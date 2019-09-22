@@ -627,6 +627,7 @@
 			</grid> -->
 		</rect>
 	</window>
+	
 
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="windowFuel" width="228" height="166" panel="Right" cursor_area="true">
@@ -681,6 +682,8 @@
 			</grid>
 		</rect>
 	</window>
+	
+	
 
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="windowForgeInput" width="228" height="204" panel="Right"

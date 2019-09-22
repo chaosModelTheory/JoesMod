@@ -20320,7 +20320,7 @@ NOT the TextureNumber.
 	<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
 	<property name="AmmoItem" value="ammoShotgunShell"/> <!-- does not use the damage value -->
 	<property name="MaxDistance" value="15"/>
-	<property name="EntityDamage" value="9"/> <!-- does not use range falloff for damage -->
+	<property name="EntityDamage" value="15"/> <!-- does not use range falloff for damage -->
 	<property name="BlockDamage" value="1"/>
 	<property name="RaySpread" value="5.2"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
 	<property name="RayCount" value="8"/>
@@ -20328,6 +20328,33 @@ NOT the TextureNumber.
 	<property name="BurstFireRate" value="0.61"/>
 	<property name="CooldownTime" value="2"/>
 	<property name="OvershootTime" value="0.8"/>
+
+	<property name="ParticlesMuzzleFire" value="nozzleflash_shotgun"/>
+	<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
+
+	<!--<property name="Buff" value="buffShotgunWound1"/>
+	<property name="BuffChance" value="0.8"/>-->
+
+	<property name="FireSound" value="pump_shotgun_fire"/>
+	<property name="EconomicValue" value="2500"/>
+	<property name="PickupJournalEntry" value="cameraTip"/>
+</block>
+
+<block name="shotgunSlugTurret">
+	<property name="CustomIcon" value="shotgunSlugTurret"/>
+	<property name="Extends" value="autoTurret"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Model" value="Entities/Traps/AutoTurret/Auto_TurretShotgunPrefab"/>
+	<property name="AmmoItem" value="ammoShotgunSlug"/> <!-- does not use the damage value -->
+	<property name="MaxDistance" value="30"/>
+	<property name="EntityDamage" value="25"/> <!-- does not use range falloff for damage -->
+	<property name="BlockDamage" value="1"/>
+	<property name="RaySpread" value="2.5"/> <!-- Spread 5.2deg: 1m cone(55% hit) @ 11m -->
+	<property name="RayCount" value="1"/>
+	<property name="BustRoundCount" value="4"/>
+	<property name="BurstFireRate" value=".5"/>
+	<property name="CooldownTime" value="2"/>
+	<property name="OvershootTime" value=".8"/>
 
 	<property name="ParticlesMuzzleFire" value="nozzleflash_shotgun"/>
 	<property name="ParticlesMuzzleSmoke" value="nozzlesmokeuzi"/>
@@ -25331,8 +25358,10 @@ ore block visualisation end -->
 	<property name="LootList" value="113"/>
 </block>
 
-
 <!--
+
+
+
 Block replacements
 Search -> Replace
 

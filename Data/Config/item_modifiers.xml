@@ -848,7 +848,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 
-	<item_modifier name="modMeleeErgonomicGrip" installable_tags="melee,bow" modifier_tags="health" type="attachment" rarity="0.5">
+	<item_modifier name="modMeleeErgonomicGrip" installable_tags="melee,perkArchery" modifier_tags="health" type="attachment" rarity="0.5">
 		<property name="Stacknumber" value="1"/>
 
 		<!-- Reduces Stamina usage on all attacks, all melee -->
@@ -1584,8 +1584,7 @@ Use 762 ammo in smaller caliber guns. 98% chance for the gun to explode on firin
 </item_modifiers>
 
 
-
-
+<!-- Modded Shit -->
 
 
 <!--

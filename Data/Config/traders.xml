@@ -570,6 +570,13 @@ quality_mod: adjusts the price range of all items with a quality level.
 		</trader_item_group>
 
 		<trader_item_group name="ammo">
+			<item name="ammo9mmJTBullet" count="40,150" prob="0.5"/>
+			<item name="ammo762mmJTBulletFMJ" count="20,100" prob="0.5"/>
+			<item name="ammo44MagnumJTBullet" count="15,60" prob="0.5"/>
+			<item name="ammoShotgunRifledSlug" count="6,25" prob="0.5"/>
+			<item name="ammo50CalBullet" count="6,25" prob="0.5"/>
+			<item name="ammo50CalJTBullet" count="6,25" prob="0.5"/>
+			
 			<item name="ammo9mmBullet" count="40,150"/>
 			<item name="ammo9mmBulletSteel" count="40,150"/>
 			<item name="ammo762mmBulletFMJ" count="20,100"/>
@@ -738,6 +745,9 @@ quality_mod: adjusts the price range of all items with a quality level.
 		</trader_item_group>
 
 		<trader_item_group name="rareTools" count="1">
+			<item name="meleeToolSteelAuger" prob="0.3"/>
+			<item name="meleeToolSteelChainsaw" prob="0.3"/>
+			<item name="gunToolImpact" prob="0.3"/>
 			<item name="meleeToolChainsaw"/>
 			<item name="meleeToolAuger" prob="0.3"/>
 			<item name="gunToolNailgun"/>
