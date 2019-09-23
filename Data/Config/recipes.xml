@@ -893,9 +893,14 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
-<recipe name="resourceAcid" count="1" craft_area="chemistryStation" tags="learnable">
+<recipe name="resourceAcid" count="1" craft_area="chemistryStation" >
 	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
 	<ingredient name="drinkJarGrainAlcohol" count="1"/>
+</recipe>
+
+<recipe name="resourceGlue" count="5" craft_area="chemistryStation" >
+	<ingredient name="resourceAcid" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
 </recipe>
 
 <recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
@@ -2829,12 +2834,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceFemur" count="1"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
-
+<!--
 <recipe name="resourceGlue" count="1" craft_area="chemistryStation">
 	<ingredient name="resourceFemur" count="1"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
-
+-->
 <recipe name="resourceGunPowder" count="1" craft_area="chemistryStation">
 	<ingredient name="resourceCoal" count="1"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="1"/>

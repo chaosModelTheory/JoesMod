@@ -1393,10 +1393,10 @@
 <!-- Influence Perks (Intellect) -->
 	<perk name="perkBetterBarter" parent="skillInfluence" name_key="perkBetterBarterName" desc_key="perkBetterBarterDesc" icon="ui_game_symbol_barter">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
-		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
-		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
-		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
 
 		<effect_group>
 			<passive_effect name="BarteringBuying" operation="base_add" level="1,2,3,4,5" value="0.1,0.2,0.3,0.4,0.5"/>
@@ -1734,7 +1734,7 @@
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5"
 				tags="resourceRocketTip,resourceRocketCasing,ammoRocketHE,ammoRocketFrag"/>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5"
-				tags="batterybank,resourceAcid"/>
+				tags="batterybank"/>
 			<effect_description level="1" desc_key="perkYeahScienceRank1Desc"/>
 			<effect_description level="2" desc_key="perkYeahScienceRank2Desc"/>
 			<effect_description level="3" desc_key="perkYeahScienceRank3Desc"/>

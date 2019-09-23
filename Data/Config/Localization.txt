@@ -2760,7 +2760,7 @@ modArmorMilitaryPlating,item_modifiers,mod,New,Military Plating,,,,,
 modArmorMilitaryPlatingDesc,item_modifiers,mod,New,Improve your armor rating with this military grade plating. Can only be installed in light armor better than padded.,,,,,
 modArmorMilitaryPlatingSchematic,items,mod,New,Military Plating Schematic,,,,,
 modArmorPlasticPlating,item_modifiers,mod,New,Plastic Plating,,,,,
-modArmorPlasticPlatingDesc,item_modifiers,mod,New,Improve your armor rating with this plastic plating. Can only be installed in light armor better than padded.,,,,,
+modArmorPlatingDesc,item_modifiers,mod,New,Improve your armor rating with this plastic plating. Can only be installed in light armor better than padded.,,,,,
 modArmorPlasticPlatingSchematic,items,mod,New,Plastic Plating Schematic,,,,,
 modArmorReinforcedPadding,item_modifiers,mod,New,Reinforced Padding,,,,,
 modArmorReinforcedPaddingDesc,item_modifiers,mod,New,Improve your armor rating with this reinforced padding. Can only be installed in light armor.,,,,,
@@ -4523,7 +4523,7 @@ perkYeahScienceRank1Desc,progression,Perk,New,"You can craft chemistry stations,
 perkYeahScienceRank2Desc,progression,Perk,New,"You can craft military fiber, dynamite, air filter mines, advanced bolts and arrows. Can use tier 2 schematics.",,,,,
 perkYeahScienceRank3Desc,progression,Perk,New,You can craft advanced firearm ammunition. Can use tier 3 schematics.,,,,,
 perkYeahScienceRank4Desc,progression,Perk,New,Rocket Science! Now you can craft advanced fuels. Can use tier 4 schematics.,,,,,
-perkYeahScienceRank5Desc,progression,Perk,New,You can craft battery banks and Acid. Can use tier 5 schematics.,,,,,
+perkYeahScienceRank5Desc,progression,Perk,New,You can craft battery banks. Can use tier 5 schematics.,,,,,
 secretStash,progression,Perk,New,Secret Stash,,,,,
 secretStashDesc,progression,Perk,New,By increasing this perk traders will show you more and better items from their Secret Stash.,,,,,
 sexualTyranosaurus,progression,Perk,GrChanged,Sexual Tyrannosaurus,Tyrannosaure en rut,Wie ein Wildes Tier,,Tiranosaurio sexual,
@@ -7367,16 +7367,8 @@ perkAdvancedEngineeringName,progression,Perk,New,Advanced Engineering,,,,,
 perkAdvancedEngineeringRank1Desc,progression,Perk,New,"Craft workbench, table saw, mining helmet & basic electrical components.",,,,,
 perkAdvancedEngineeringRank2Desc,progression,Perk,New,"Craft advanced electrical components & dart traps.",,,,,
 perkAdvancedEngineeringRank3Desc,progression,Perk,New,"Craft electric fences & blade traps. ",,,,,
-perkAdvancedEngineeringRank4Desc,progression,Perk,New,"Craft shotgun turret & nailgun.",,,,,
+perkAdvancedEngineeringRank4Desc,progression,Perk,New,"Craft shotgun turret, shotgun slug turret & nailgun.",,,,,
 perkAdvancedEngineeringRank5Desc,progression,Perk,New,"Craft auto turrets, chainsaw and augers. ",,,,,
-
-perkAdvancedEngineering2Desc,progression,Perk,New,"Engineer firearms",,,,,
-perkAdvancedEngineering2Name,progression,Perk,New,Weapon Engineering,,,,,
-perkAdvancedEngineering2Rank1Desc,progression,Perk,New,"Craft crossbow & compound bow.",,,,,
-perkAdvancedEngineering2Rank2Desc,progression,Perk,New,"Craft Hunting rifle, pistol and pump shotgun.",,,,,
-perkAdvancedEngineering2Rank3Desc,progression,Perk,New,"Craft SMG & AK47, . ",,,,,
-perkAdvancedEngineering2Rank4Desc,progression,Perk,New,"Craft Marksman Rifle & Magnum.",,,,,
-perkAdvancedEngineering2Rank5Desc,progression,Perk,New,"Craft Rocket Launcher. ",,,,,
 
 gunCrossbowSteel,items,Gun,KgNone,Steel Crossbow,
 gunCrossbowSteelDesc,items,Gun,EnChanged,The Steel Crossbow holds 5 Bolts at once and has the ability to fire farther with a much tighter spread.
@@ -7507,3 +7499,15 @@ shotgunSlugTurretDesc,blocks,Electricity,New,A shotgun turret that fires Slugs!?
 
 cookedravioli,items,Food,KgNone,cooked can of ravioli,
 cookedravioliDesc,items,Food,EnChanged,Now with less Food Poisoning!
+
+scrapBeerBottle,items,Food,KgNone,Beer Bottle,
+scrapBeerBottleDesc,items,Food,KgNone,An old empty Beer bottle,
+
+scrapPlasticBottle,items,Food,KgNone,crushed water Bottle,
+scrapPlasticBottleDesc,items,Food,KgNone,An old empty water bottle,
+
+scrapPlasticBottle2,items,Food,KgNone, Soda Bottle,
+scrapPlasticBottle2Desc,items,Food,KgNone,An old empty soda bottle,
+
+scrapPlasticBag,items,Food,KgNone,old plastic Bag,
+scrapPlasticBagDesc,items,Food,KgNone,An old plastic grocery bag,
