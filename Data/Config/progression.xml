@@ -255,6 +255,7 @@
 	<skill name="skillCraftsmanship" parent="attWorkmanship" name_key="skillCraftsmanshipName" desc_key="skillCraftsmanshipDesc" icon="ui_game_symbol_misc_crafting"><effect_group/></skill>
 	<!-- <skill name="skillConstruction" parent="attWorkmanship" name_key="skillConstructionName" desc_key="skillConstructionDesc" icon="ui_game_symbol_resource"><effect_group/></skill>
 	-->
+	<skill name="skillBows" parent="attGunsmith" name_key="skillBowsName" desc_key="skillBowsDesc" icon="ui_game_symbol_archery"><effect_group/></skill>
 	<skill name="skillPistols" parent="attGunsmith" name_key="skillPistolsName" desc_key="skillPistolsDesc" icon="ui_game_symbol_gunslinger"><effect_group/></skill>
 	<skill name="skillRifles" parent="attGunsmith" name_key="skillRiflesName" desc_key="skillRiflesDesc" icon="ui_game_symbol_marksmanship"><effect_group/></skill>
 	<skill name="skillShotguns" parent="attGunsmith" name_key="skillShotgunsName" desc_key="skillShotgunsDesc" icon="ui_game_symbol_shotgun"><effect_group/></skill>
@@ -1585,6 +1586,33 @@
 			<effect_description level="3" desc_key="perkAdvancedEngineeringRank3Desc"/>
 			<effect_description level="4" desc_key="perkAdvancedEngineeringRank4Desc"/>
 			<effect_description level="5" desc_key="perkAdvancedEngineeringRank5Desc"/>
+		</effect_group>
+	</perk>
+	
+	<perk name="perkBowRecipes" parent="skillBows" max_level="1" name_key="perkBowRecipesName" desc_key="perkBowRecipesDesc" icon="ui_game_symbol_archery">		
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attGunsmith" operation="GTE" value="1" desc_key="reqGunsmithLevel01-10"/>
+								<requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqAttributeLevelDummy"/></level_requirements>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1" tags="gunCompoundBow"/>
+			<effect_description level="1" desc_key="perkBowRecipesRank1Desc"/>			
+		</effect_group>
+	</perk>
+	
+	<perk name="perkBowRecipes2" parent="skillBows" max_level="1" name_key="perkBowRecipes2Name" desc_key="perkBowRecipes2Desc" icon="ui_game_symbol_archery">		
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attGunsmith" operation="GTE" value="1" desc_key="reqGunsmithLevel01-10"/>
+								<requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqAttributeLevelDummy"/></level_requirements>		
+		<effect_group>			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1" tags="gunCrossbow"/>
+			<effect_description level="1" desc_key="perkBowRecipesRank2Desc"/>						
+		</effect_group>
+	</perk>
+	
+	<perk name="perkBowRecipes3" parent="skillBows" max_level="1" name_key="perkBowRecipes3Name" desc_key="perkBowRecipes3Desc" icon="ui_game_symbol_archery">		
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attGunsmith" operation="GTE" value="1" desc_key="reqGunsmithLevel01-30"/>
+								<requirement name="PlayerLevel" operation="GTE" value="30" desc_key="reqAttributeLevelDummy"/></level_requirements>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1" tags="gunCrossbowSteel"/>
+			<effect_description level="1" desc_key="perkBowRecipesRank3Desc"/>
 		</effect_group>
 	</perk>
 	

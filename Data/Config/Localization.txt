@@ -7511,3 +7511,19 @@ scrapPlasticBottle2Desc,items,Food,KgNone,An old empty soda bottle,
 
 scrapPlasticBag,items,Food,KgNone,old plastic Bag,
 scrapPlasticBagDesc,items,Food,KgNone,An old plastic grocery bag,
+
+skillBowsDesc,progression,Skill,New,"Craft Specialty Bows",,,,,
+skillBowsName,progression,Skill,New,Bows Recipes,
+
+perkBowRecipesDesc,progression,Perk,New,"Unlocks Compound Bow Recipe",,,,,
+perkBowRecipesName,progression,Perk,New,Compound Bow Mastery,,,,,
+
+perkBowRecipes2Desc,progression,Perk,New,"Unlocks Crossbow Recipe",,,,,
+perkBowRecipes2Name,progression,Perk,New,Crossbow Mastery,,,,,
+
+perkBowRecipes3Desc,progression,Perk,New," Unlocks Steel Crossbow Recipe",,,,,
+perkBowRecipes3Name,progression,Perk,New,Steel Cross Bow Mastery,,,,,
+
+perkBowRecipesRank1Desc,progression,Perk,New,"Craft a Compound Bow.",,,,,
+perkBowRecipesRank2Desc,progression,Perk,New,"Craft a Crossbow.",,,,,
+perkBowRecipesRank3Desc,progression,Perk,New,"Craft a Steel Crossbow.",,,,,
