@@ -3867,9 +3867,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceFeather" count="1"/>
 </recipe>
 
-<recipe name="resourceArrowHeadHardenedSteelAP" count="1" craft_area="chemistryStation" tags="learnable" >
+<recipe name="resourceArrowHeadHardenedSteelAP" count="10" craft_area="chemistryStation" tags="learnable" >
 	<ingredient name="resourceOil" count="1"/>
-	<ingredient name="resourceArrowHeadSteelAP" count="2"/>
+	<ingredient name="resourceArrowHeadSteelAP" count="20"/>
 </recipe>
 
 <recipe name="ammoCrossbowBoltHardenedSteelAP" count="1">
