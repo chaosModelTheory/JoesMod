@@ -12785,7 +12785,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="HoldType" value="17"/>
 	<property name="Meshfile" value="Items/Weapons/Melee/Axe/fireaxePrefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceForgedSteel"/>
+	<property name="RepairTools" value="resourceHardenedSteel"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="FuelValue" value="250"/>
@@ -12898,7 +12898,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Tags" value="melee,medium,tool,shovel,perkDeepCuts,perkMotherLode"/>
 	<property name="Extends" value="meleeToolShovelIron"/>
 	<property name="Meshfile" value="Items/Tools/shovel_steelPrefab"/>
-	<property name="RepairTools" value="resourceForgedSteel"/>
+	<property name="RepairTools" value="resourceHardenedSteel"/>
 	<property name="EconomicValue" value="912"/>
 
 	<effect_group name="Base Effects">
